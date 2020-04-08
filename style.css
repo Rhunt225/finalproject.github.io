@@ -1,0 +1,122 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    }
+    * {
+    box-sizing: border-box;
+    }
+    img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    }
+    .overlay {
+        background: rgba(255, 255, 255, 0.7);
+        width: 95%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 16px 32px;
+        }
+    .nav-list {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      background: #64c6e1;
+      padding: 5px;
+      margin: 20px;
+        }
+    .logo {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0, auto, 0, auto;
+         }
+    body {
+      font-family: helvetica, arial, sans-serif;
+      color: #ec6a9d;
+      background-image: url("back.jpg");
+      background-size: contain;
+      }
+    h1 {
+      color: #ddf033;
+      text-shadow: 2px 1px 5px gray;
+      text-align: center;
+      margin: 1px
+    }
+    h2{
+      color: #64c6e1;
+    }
+    a{
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    a:hover{
+      color: #ddf033;
+      font-weight: bold;
+    }
+    button{
+      color: white;
+      background: #ec6a9d;
+      border: none;
+      padding: 5px 10px 5px 10px;
+      border-radius: 5px;
+      box-shadow: 2px 1px 5px gray;
+      }
+    button:hover {
+      background: #327bbf;
+      cursor: pointer;
+    }
+    .form-email {
+      background: #64c6e1;
+      max-width: 310px;
+      padding: 0px 10px 5px 30px;
+      margin: 0 auto;
+      font-family: helvetica, arial, sans-serif;
+    }
+    .form-contact {
+      background: #64c6e1;
+      width: 350px;
+     	padding: 0px 30px 15px 30px;
+      margin: 0 auto;
+      font-family: helvetica, arial, sans-serif;
+    }
+    #form-name, #form-phone, #form-email, #form-textbox {
+      margin: 10px auto;
+          }
+    #form-textbox {
+      padding: 5px;
+    	width: 300px;
+      height: 90px;
+      font-family: helvetica, arial, sans-serif;
+    }
+    .form-text{
+      color: white;
+      text-align: center;
+      padding: 5px 0px 2px 0px;
+      font-size: 17px
+    }
+    footer {
+      width: 100%;
+      padding: 2%;
+      margin-top: 2%;
+      color: white;
+      background-color: #64c6e1;
+      text-align: center;
+      text-transform: uppercase;
+  }
+  @media (min-width: 650px) {
+    .photos, .photos-2, .photos-3, .photos-4 {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          margin-top: 20px;
+          width: 100%;
+          height: auto;
+    }
+    }
+       
