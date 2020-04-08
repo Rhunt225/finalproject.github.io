@@ -30,6 +30,9 @@ html, body{
       padding: 5px;
       margin: 20px;
         }
+    li {
+      margin: 8px;
+    }
     .logo {
       width: 100%;
       height: auto;
@@ -50,6 +53,10 @@ html, body{
     }
     h2{
       color: #64c6e1;
+    }
+    h4 {
+        font-style: italic;
+        color: #ddf033
     }
     a{
       color: white;
@@ -115,8 +122,17 @@ html, body{
     margin-top: 15px;
     text-transform: none;
   }
+  .ul-skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 20px;
+    list-style: none;
+  }
   @media (min-width: 650px) {
-    .photos, .photos-2, .photos-3, .photos-4 {
+    .photos {
           display: grid;
           grid-template-columns: repeat(3, 1fr);
           margin-top: 20px;
