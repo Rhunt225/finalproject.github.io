@@ -127,10 +127,32 @@ html, body{
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
-    padding: 5px;
     margin: 20px;
     list-style: none;
   }
+  .work {
+    padding: 2% 30% 2% 2%; 
+    text-align: left;
+    border: 3px solid #64c6e1;
+    border-radius: 15px;
+     }
+    .ed {
+    padding: 2% 2% 2% 30%; 
+    text-align: right;
+    border: 3px solid #64c6e1;
+    border-radius: 15px;
+    }
+  .skills {
+    padding: 2% 30% 2% 2%; 
+    text-align: left;
+    border: 3px solid #64c6e1;
+    border-radius: 15px;
+  }
+  .about {
+    width: 75%;
+    max-width: 1200px;
+    margin: 0px auto;
+      }
   @media (min-width: 650px) {
     .photos {
           display: grid;
