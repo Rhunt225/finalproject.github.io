@@ -47,16 +47,17 @@ html, body{
       }
     h1 {
       color: #ddf033;
-      text-shadow: 2px 1px 5px gray;
+      text-shadow: 2px 2px 2px gray;
       text-align: center;
-      margin: 1px
+      margin: 1px;
+      font-size: 40px;
     }
     h2{
       color: #64c6e1;
     }
     h4 {
         font-style: italic;
-        color: #ddf033
+        color: rgb(105, 207, 3);
     }
     a{
       color: white;
