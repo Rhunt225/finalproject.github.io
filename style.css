@@ -154,6 +154,11 @@ html, body{
     max-width: 1200px;
     margin: 0px auto;
       }
+  #arrow {
+    margin-left: 90%;
+    margin-right: 2%;
+    width: 10%;
+             }
   @media (min-width: 650px) {
     .photos {
           display: grid;
@@ -166,6 +171,11 @@ html, body{
       position: sticky;
       top: 0;
       background: white;
+    }
+    @media (min-width: 950px) {
+      #arrow {
+        width: 5%;
+      }
     }
     }
        
